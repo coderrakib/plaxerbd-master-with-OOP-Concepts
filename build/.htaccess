@@ -1,0 +1,24 @@
+
+RewriteEngine on  
+  
+RewriteRule ^change_password_process    change_password_process.php   [NC,L]
+RewriteRule ^change_password            change_password.php   [NC,L]
+RewriteRule ^chat_message               chat_message.php   [NC,L]
+RewriteRule ^forgot_password_process    forgot_password_process.php   [NC,L]
+RewriteRule ^forgot_password            forgot_password.php   [NC,L]
+RewriteRule ^forgot_password_process    forgot_password_process.php   [NC,L]
+RewriteRule ^home   	                index.php [NC,L]
+RewriteRule ^info                       info.php [NC,L] 
+RewriteRule ^login 	                    login.php [NC,L]
+RewriteRule ^logout 	                logout.php [NC,L] 
+RewriteRule ^messages 	                messages.php [NC,L] 
+RewriteRule ^privacy-policy             privacy-policy.php [NC,L]
+RewriteRule ^profile                    profile.php [NC,L]
+RewriteRule ^registration               registration.php [NC,L]
+RewriteRule ^sendEmail                  sendEmail.php [NC,L]
+RewriteRule ^signup                     signup.php [NC,L]
+RewriteRule ^winner_lists               winner_lists.php [NC,L]
+
+
+
+
